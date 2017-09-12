@@ -7,6 +7,5 @@
 6. I did all of the 6 items mentioned in hw01
 
 // Comment from Prof. Yoder
-// See README requirements
 // Python code works
-// Grade:  7/10
+// Grade:  10/10
