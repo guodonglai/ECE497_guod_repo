@@ -5,3 +5,7 @@
 4. Then it detect WASD clicks on the screen to determine the direction to move and draw 'X' on
 5. q is used to quit the game and c is to clear the screen
 6. I did all of the 6 items mentioned in hw01
+
+// Comment from Prof. Yoder
+// Python code works
+// Grade:  10/10
