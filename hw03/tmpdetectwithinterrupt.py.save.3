@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+import Adafruit_BBIO.GPIO as GPIO
+import smbus
+bus=smbus.SMBUS(1)
+address1=0x48
+address2=0x49
+Alert1="GP0_6"
+Alert2="GP0_5"
+
+gpios=[Alert1,Alert2]
+for i in range(len(gpios)):
+	GPIO.setup(gpios[i],GPIO.IN)
+
+def printstuff(channel):
+	if(channel==Al)
+	temp1=bus.read_byte_data(address1,0)
+	temp2=$(($temp1*9/5+32))
+	print("Temperature read from address 0x48 is" temp2)
+
+
+	temp3=bus.read_byte_data(address2,0)
+	temp4=$(($temp3*9/5+32))
+	print("Temperature read from address 0x49 is" $temp4)
+
+for i in range(len(gpios)):
+	GPIO.add_event_detect(gpios[i],GPIO.BOTH,callback=printstuff)
