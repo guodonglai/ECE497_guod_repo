@@ -3,3 +3,8 @@
 To use it, user need to rotate the button, to add one LED at a time.
 2. gpio1.c file is the one that controls two internal LED using two push buttons. The USR2 and USR3 are initially on, to turn it off, the user should push gpio25 and gpio17 buttons.
 3. gpio2.c file is the one that controls one internal LED using only one push button. To control it, the user need to push gpio1_25 button.
+
+# Comments from Prof. Yoder
+# Found your memory map file
+# Looks good.
+# Grade:  10/10
