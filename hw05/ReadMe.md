@@ -8,3 +8,8 @@ next color.Toggle the corresponding bit and then send the data back to boneserve
 4. Firstly, it checks its current data value disp[2*i](green bit) and disp[2*i+1](red bit) to determine its previous status. If blank, go green. If green, go orange. If orange, go red. 
 If red, go blank.Then it toggles the corresponding bit by doing xor 0x1<<j with itself. Finally, the matrixLED.js send that one bit with specified index at a time to change the LED on bone. 
 5. Already changed matrixLED.html to modify the title into my own name.
+
+# Comments from Prof. Yoder
+# Found your answers to the questions.  They look good.
+# Thanks for the demo.
+# Grade:  10/10
