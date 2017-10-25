@@ -9,3 +9,7 @@ on top of the image.
 4. Wrting pixels to LCD: for this part, the program will allow user to enter
 width rgb values seperately to personalize the line. The user could use the 
 rotary knobs to control the horizontal and vertical moves of the line.   
+
+// Comments from Prof. Yoder
+// It works!
+// Grade:  10/10
