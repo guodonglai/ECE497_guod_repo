@@ -6,3 +6,8 @@ It maps the input and output and triggers the interrupt by gpio.add_event_detect
 3. Kernel module: This file is called gpio_test.c under hw07/exploringbb/extras/kernal/gpio_test directory. It triggers the interrupt in kernel mode.
 To run it, the user should first run sudo insmod gpio_test.ko to add the module into kernel.
 The test results are as displayed in a file called results.
+
+// Comments from Prof. Yoder
+// Results look good.
+// Project page needs updating
+// Grade:  9/10
